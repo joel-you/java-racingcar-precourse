@@ -3,7 +3,9 @@ package racingcar.domain;
 import java.util.Objects;
 
 public class Car implements Comparable<Car> {
+
     private final String name;
+
     private final Distance distance;
 
     public Car(String name) {

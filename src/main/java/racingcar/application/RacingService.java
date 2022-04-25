@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RacingService {
+
     private GameView gameView;
 
     private Validation validation;

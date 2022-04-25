@@ -8,6 +8,7 @@ import java.util.List;
 import static racingcar.core.Constant.*;
 
 public class GameView {
+
     public List<String> inputCarName() {
         System.out.println(INPUT_CAR_NAME);
         return Arrays.asList(Console.readLine().split(SEPARATOR));
@@ -29,10 +30,4 @@ public class GameView {
     public void finalResult(String names) {
         System.out.printf(FINAL_WINNER, names);
     }
-
-    public void displayExecutionResult() {
-        System.out.println(ROUND_RESULT);
-    }
-
-
 }

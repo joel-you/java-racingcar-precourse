@@ -3,6 +3,7 @@ package racingcar.domain;
 import camp.nextstep.edu.missionutils.Randoms;
 
 public class Distance {
+
     private static final int DRIVE = 1;
 
     private static final int MIN_DISTANCE = 0;
@@ -17,10 +18,6 @@ public class Distance {
 
     public Distance() {
         this.distance = 0;
-    }
-
-    public Distance(int distance) {
-        this.distance = distance;
     }
 
     public int getDistance() {
@@ -41,5 +38,4 @@ public class Distance {
         }
         return displayDistance();
     }
-
 }
